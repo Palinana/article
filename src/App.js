@@ -5,9 +5,10 @@ function App() {
   return (
     <section>
       <div className="container">
-        <p className="heading-primary--main ">
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <h2 className="heading-tertiary--mainy">
+        Built to empower every team
+        </h2>
+        <p className="heading-tertiary--sub">Notion solves problems unique to every function.</p>
         <a
           className="App-link"
           href="https://reactjs.org"

@@ -80,45 +80,52 @@ input[type=text] {
 /* TYPOGRAPHY */
 
 
-/* primary */
-
-.heading-primary {
-
-}
-
-.heading-primary--big {
-
-}
-
-.heading-primary--main {
+/* inital page */
+.heading-primarily--big {
   font-size: 6rem;
-  font-weight: 400;
-  letter-spacing: 3.5rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
 }
-
-.heading-primary--sub {
-  font-size: 2rem;
+/* inital page  commom heading */
+.heading-primarily--main {
+  font-size: 4rem;
   font-weight: 700;
-  letter-spacing: 1.75rem;
+  letter-spacing: -0.005em;
+}
+/* inital page sub heading */
+.heading-primarily--sub {
+  font-size: 2rem;
+  color: #777;
 }
 
 /* secondary */
 
+/* feed, details*/
 .heading-secondary--main {
-
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
 }
 
 .heading-secondary--sub {
+  font-size: 1.7rem;
+  color: #777;
+  letter-spacing: -0.005em;
 }
 
 /* tertiary */
 
+/* article name & short info */
 .heading-tertiary--main {
-
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
 }
 
 .heading-tertiary--sub {
-
+  font-size: 1.4rem;
+  color: #777;
+  letter-spacing: -0.005em;
 }
 
 /* BUTTONS */

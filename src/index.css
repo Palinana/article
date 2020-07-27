@@ -1,13 +1,234 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*,
+*::after,
+*::before { 
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  /*This defines what 1rem is | 1rem = 10px (10px/16px = 62.5%) */
+  font-size: 62.5%;  
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 1.6rem;
+  color: black;
+}
+
+input[type=text] {
+  font-family: 'Mulish', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* LAYOUT */
+
+.container {
+  width: 90%;
+  max-width: 1240px;
+  margin: 0 auto;
+  background:#fffefc;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex-direction: column;
+  }
+}
+
+
+.col {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+@media (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
+}
+
+
+/* COLORS 
+
+background: #fffefc
+primary: #e16259e3
+primary dark: #e16259
+
+
+*/
+
+
+.primary-color {
+  color: #e16259e3;
+}
+
+.supporting-color-1 {
+  color: #f9f5f1;
+}
+.supporting-color-2 {
+  color: #f7e8d9;
+}
+.supporting-color-3 {
+  color: #e4eef2;
+}
+
+
+
+/* Typograpghy colors */
+.color-grey-light-1 {
+  color: #f7f7f7;
+} 
+.color-grey-dark {
+  color: #777;
+}
+.color-white {
+  color: #fff;
+}
+.color-black {
+  color: #000;
+}
+
+
+
+/* TYPOGRAPHY */
+
+
+/* inital page */
+.heading-primarily--big {
+  font-size: 6rem;
+  font-weight: 800;
+  letter-spacing: -0.025em;
+}
+/* inital page  commom heading */
+.heading-primarily--main {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+/* inital page sub heading */
+.heading-primarily--sub {
+  font-size: 2rem;
+  color: #777;
+}
+
+/* secondary */
+
+/* feed, details*/
+.heading-secondary--main {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+.heading-secondary--sub {
+  font-size: 1.7rem;
+  color: #777;
+  letter-spacing: -0.005em;
+}
+
+/* tertiary */
+
+/* article name & short info */
+.heading-tertiary--main {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+.heading-tertiary--sub {
+  font-size: 1.4rem;
+  color: #777;
+  letter-spacing: -0.005em;
+}
+
+/* PARAGRAPH */
+
+.paragraph {
+  font-size: 2rem;
+  margin-bottom: .5em;  /* 1rem */
+}
+
+/* LINKS */
+
+.navigation-link--main {
+  display: inline-flex;
+  margin-bottom: 4px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.navigation-link--sub {
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.4rem;
+  color: rgb(55, 53, 47);
+  width: 100%;
+}
+
+/* BUTTONS */
+
+.btn {
+  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border-radius: 4px;  
+  line-height: 1;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding: 0 1.5em;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn-primary {
+  height: 4rem;
+  font-size: 1.6rem;
+  background: rgb(225, 98, 89);
+}
+
+.btn-secondary {
+  height: 4rem;
+  font-size: 1.6rem;
+  color: black;
+  border: 1px solid rgba(0,0,0,.15);
+}
+
+.btn-secondary--small {
+  height: 36px;
+  font-size: 1.4rem;
+  color: black;
+  border: 1px solid rgba(0,0,0,.15);
 }

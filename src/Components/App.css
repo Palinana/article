@@ -1,4 +1,15 @@
-.App {
+.App-col-1 {
+  width: 65%;
+  background: aliceblue;
+}
+
+.App-col-2 {
+  width: 30%;
+  background: antiquewhite;
+}
+
+
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +46,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */

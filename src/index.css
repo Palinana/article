@@ -27,39 +27,81 @@ input[type=text] {
   font-family: 'Mulish', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
 /* LAYOUT */
 
 .container {
   width: 90%;
+  max-width: 1240px;
   margin: 0 auto;
-  /* background: #777; */
+  background:#fffefc;
 }
 
-/* COLORS */
-
-.color-primary {
-  color: red;
+.column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 1em 0;
 }
 
-.color-primary-light {
-  color: rgb(182, 113, 113);
+@media (max-width: 600px) {
+  .column {
+    flex-direction: column;
+  }
 }
 
-.color-primary-dark {
-  color: rgb(82, 11, 11);
+
+.col {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
 }
 
-.color-secondary {
-  color: yellow;
-}
-.color-tertiary {
-  color: blue;
+@media (max-width: 600px) {
+  .col {
+    width: 100%;
+  }
 }
 
-/* Background colors */
-.background-color-primary {
-  
+
+/* COLORS 
+
+background: #fffefc
+primary: #e16259e3
+primary dark: #e16259
+
+
+*/
+
+
+.primary-color {
+  color: #e16259e3;
 }
+
+.supporting-color-1 {
+  color: #f9f5f1;
+}
+.supporting-color-2 {
+  color: #f7e8d9;
+}
+.supporting-color-3 {
+  color: #e4eef2;
+}
+
+
 
 /* Typograpghy colors */
 .color-grey-light-1 {
@@ -128,6 +170,30 @@ input[type=text] {
   letter-spacing: -0.005em;
 }
 
+/* PARAGRAPH */
+
+.paragraph {
+  font-size: 2rem;
+  margin-bottom: .5em;  /* 1rem */
+}
+
+/* LINKS */
+
+.navigation-link--main {
+  display: inline-flex;
+  margin-bottom: 4px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.navigation-link--sub {
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.4rem;
+  color: rgb(55, 53, 47);
+  width: 100%;
+}
+
 /* BUTTONS */
 
 .btn {
@@ -140,20 +206,27 @@ input[type=text] {
   line-height: 1;
   padding-left: 12px;
   padding-right: 12px;
+  padding: 0 1.5em;
   font-weight: 400;
   color: white;
   text-align: center;
   cursor: pointer;
 }
 
-.btn-primary-filled {
+.btn-primary {
   height: 4rem;
-  padding: 0 2.5rem;
   font-size: 1.6rem;
   background: rgb(225, 98, 89);
 }
 
-.btn-secondary-unfilled {
+.btn-secondary {
+  height: 4rem;
+  font-size: 1.6rem;
+  color: black;
+  border: 1px solid rgba(0,0,0,.15);
+}
+
+.btn-secondary--small {
   height: 36px;
   font-size: 1.4rem;
   color: black;

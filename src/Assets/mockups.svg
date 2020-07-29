@@ -1,0 +1,158 @@
+<svg width="1035" height="739" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <rect id="b" width="960" height="600" rx="20"/>
+  <path d="m20,0l920,0c11.046,0 20,8.954 20,20l0,44l-960,0l0,-44c0,-11.046 8.954,-20 20,-20z" id="d"/>
+  <rect id="i" width="320" height="512" rx="17.067"/>
+  <path d="m17.067,0l285.866,0c9.427,0 17.067,7.641 17.067,17.067l0,37.546l-320,0l0,-37.546c0,-9.427 7.641,-17.067 17.067,-17.067z" id="k"/>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="1037.006037" height="741.00431" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g fill="none" fill-rule="evenodd" id="svg_1">
+   <g id="svg_2">
+    <use stroke="#000000" fill="#FFF" xlink:href="#b" y="17" x="13" id="svg_4"/>
+    <use fill="#050505" xlink:href="#d" y="16.666706" x="13.666683" id="svg_6"/>
+    <rect fill="#E1E8EE" x="81" y="36" width="200" height="24" rx="5" id="svg_7"/>
+    <g fill="#D8D8D8" id="svg_8">
+     <rect width="32" height="4" rx="2" y="32" x="873" id="svg_9"/>
+     <rect y="40" width="32" height="4" rx="2" x="873" id="svg_10"/>
+     <rect y="48" width="32" height="4" rx="2" x="873" id="svg_11"/>
+    </g>
+    <g id="svg_12">
+     <circle fill="#e3c6f6" cx="129" cy="196" r="48" id="svg_13"/>
+     <g fill="#E1E8EE" id="svg_14">
+      <rect width="115" height="16" rx="3" y="160" x="233" id="svg_15"/>
+      <rect y="192" width="400" height="8" rx="3" x="233" id="svg_16"/>
+      <rect y="208" width="366.667" height="8" rx="3" x="233" id="svg_17"/>
+      <rect y="224" width="333.333" height="8" rx="3" x="233" id="svg_18"/>
+     </g>
+     <g fill="#A7B9C8" id="svg_19">
+      <circle cx="693" cy="196" r="12" id="svg_20"/>
+      <circle cx="757" cy="196" r="12" id="svg_21"/>
+      <circle cx="725" cy="196" r="12" id="svg_22"/>
+      <circle cx="789" cy="196" r="12" id="svg_23"/>
+      <circle cx="821" cy="196" r="12" id="svg_24"/>
+     </g>
+    </g>
+    <g id="svg_25">
+     <circle fill="#cdeff1" cx="126" cy="329" r="45" id="svg_26" stroke="#cdeff1"/>
+     <g fill="#E1E8EE" id="svg_27">
+      <rect width="115" height="16" rx="3" y="293" x="230" id="svg_28"/>
+      <rect y="325" width="400" height="8" rx="3" x="230" id="svg_29"/>
+      <rect y="341" width="366.667" height="8" rx="3" x="230" id="svg_30"/>
+      <rect y="357" width="333.333" height="8" rx="3" x="230" id="svg_31"/>
+     </g>
+     <g fill="#A7B9C8" id="svg_32">
+      <circle cx="690" cy="329" r="12" id="svg_33"/>
+      <circle cx="754" cy="329" r="12" id="svg_34"/>
+      <circle cx="722" cy="329" r="12" id="svg_35"/>
+     </g>
+    </g>
+    <g id="svg_36">
+     <circle fill="#f4debf" cx="126" cy="472" r="45" id="svg_37"/>
+     <g fill="#E1E8EE" id="svg_38">
+      <rect width="115" height="16" rx="3" y="436" x="230" id="svg_39"/>
+      <rect y="468" width="400" height="8" rx="3" x="230" id="svg_40"/>
+      <rect y="484" width="366.667" height="8" rx="3" x="230" id="svg_41"/>
+      <rect y="500" width="333.333" height="8" rx="3" x="230" id="svg_42"/>
+     </g>
+     <g fill="#A7B9C8" id="svg_43">
+      <circle cx="690" cy="472" r="12" id="svg_44"/>
+      <circle cx="754" cy="472" r="12" id="svg_45"/>
+      <circle cx="722" cy="472" r="12" id="svg_46"/>
+      <circle cx="786" cy="472" r="12" id="svg_47"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_48">
+    <use stroke="#000000" fill="#fffcfc" xlink:href="#i" y="219.000006" x="705" id="svg_50"/>
+   </g>
+   <g id="svg_51">
+    <use fill="#050505" xlink:href="#k" y="218" x="705" id="svg_53"/>
+   </g>
+   <g id="svg_54">
+    <rect fill="#E1E8EE" width="104" height="20.48" rx="4.267" y="236.772995" x="737.132996" id="svg_55"/>
+    <g fill="#D8D8D8" id="svg_56">
+     <rect width="27.307" height="3.413" rx="1.707" y="238.479995" x="963.559998" id="svg_57"/>
+     <rect y="245.306995" width="27.307" height="3.413" rx="1.707" x="963.559998" id="svg_58"/>
+     <rect y="252.132995" width="27.307" height="3.413" rx="1.707" x="963.559998" id="svg_59"/>
+    </g>
+   </g>
+   <g id="svg_60">
+    <circle fill="#e6c6f1" cx="752" cy="341" r="15" id="svg_61"/>
+    <g fill="#E1E8EE" id="svg_62">
+     <rect width="57.5" height="5.333" rx="0.92" y="329" x="783" id="svg_63"/>
+     <rect y="339.667" width="200" height="2.667" rx="0.92" x="783" id="svg_64"/>
+     <rect y="345" width="183.333" height="2.667" rx="0.92" x="783" id="svg_65"/>
+     <rect y="350.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_66"/>
+    </g>
+   </g>
+   <g id="svg_67">
+    <circle fill="#e6c6f1" cx="752" cy="479" r="15" id="svg_68"/>
+    <g fill="#E1E8EE" id="svg_69">
+     <rect width="57.5" height="5.333" rx="0.92" y="467" x="783" id="svg_70"/>
+     <rect y="477.667" width="200" height="2.667" rx="0.92" x="783" id="svg_71"/>
+     <rect y="483" width="183.333" height="2.667" rx="0.92" x="783" id="svg_72"/>
+     <rect y="488.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_73"/>
+    </g>
+   </g>
+   <g id="svg_74">
+    <g fill="#E1E8EE" id="svg_75">
+     <rect width="57.5" height="5.333" rx="0.92" y="375" x="783" id="svg_76"/>
+     <rect y="385.667" width="200" height="2.667" rx="0.92" x="783" id="svg_77"/>
+     <rect y="391" width="183.333" height="2.667" rx="0.92" x="783" id="svg_78"/>
+     <rect y="396.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_79"/>
+    </g>
+    <circle fill="#cdeff1" cx="752" cy="387" r="15" id="svg_80"/>
+   </g>
+   <g id="svg_81">
+    <g fill="#E1E8EE" id="svg_82">
+     <rect width="57.5" height="5.333" rx="0.92" y="513" x="783" id="svg_83"/>
+     <rect y="523.667" width="200" height="2.667" rx="0.92" x="783" id="svg_84"/>
+     <rect y="529" width="183.333" height="2.667" rx="0.92" x="783" id="svg_85"/>
+     <rect y="534.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_86"/>
+    </g>
+    <circle fill="#cdeff1" cx="752" cy="525" r="15" id="svg_87"/>
+   </g>
+   <g id="svg_88">
+    <g fill="#E1E8EE" id="svg_89">
+     <rect width="57.5" height="5.333" rx="0.92" y="421" x="783" id="svg_90"/>
+     <rect y="431.667" width="200" height="2.667" rx="0.92" x="783" id="svg_91"/>
+     <rect y="437" width="183.333" height="2.667" rx="0.92" x="783" id="svg_92"/>
+     <rect y="442.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_93"/>
+    </g>
+    <circle fill="#f4dcbf" cx="752" cy="433" r="15" id="svg_94"/>
+   </g>
+   <g id="svg_95">
+    <g fill="#E1E8EE" id="svg_96">
+     <rect width="57.5" height="5.333" rx="0.92" y="559" x="783" id="svg_97"/>
+     <rect y="569.667" width="200" height="2.667" rx="0.92" x="783" id="svg_98"/>
+     <rect y="575" width="183.333" height="2.667" rx="0.92" x="783" id="svg_99"/>
+     <rect y="580.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_100"/>
+    </g>
+    <circle fill="#f4dcbf" cx="752" cy="571" r="15" id="svg_101"/>
+   </g>
+   <g id="svg_102">
+    <circle fill="#e6c6f1" cx="752" cy="617" r="15" id="svg_103"/>
+    <g fill="#E1E8EE" id="svg_104">
+     <rect width="57.5" height="5.333" rx="0.92" y="605" x="783" id="svg_105"/>
+     <rect y="615.667" width="200" height="2.667" rx="0.92" x="783" id="svg_106"/>
+     <rect y="621" width="183.333" height="2.667" rx="0.92" x="783" id="svg_107"/>
+     <rect y="626.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_108"/>
+    </g>
+   </g>
+   <g id="svg_109">
+    <g fill="#E1E8EE" id="svg_110">
+     <rect width="57.5" height="5.333" rx="0.92" y="651" x="783" id="svg_111"/>
+     <rect y="661.667" width="200" height="2.667" rx="0.92" x="783" id="svg_112"/>
+     <rect y="667" width="183.333" height="2.667" rx="0.92" x="783" id="svg_113"/>
+     <rect y="672.333" width="166.667" height="2.667" rx="0.92" x="783" id="svg_114"/>
+    </g>
+    <circle fill="#cdeef1" cx="752" cy="663" r="15" id="svg_115"/>
+   </g>
+  </g>
+ </g>
+</svg>

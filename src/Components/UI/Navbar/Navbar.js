@@ -6,10 +6,10 @@ function Navbar() {
     return (
         <header className="Navbar-header">
             <div className="Navbar-container">
-                <div className="Navbar-site-title">
+                <Link to="/" className="Navbar-site-title">
                     <img alt="logo" className="Navbar-site-title__logo" src={require('../../../Assets/font.svg')} />
-                    <h2 className="Navbar-site-title__name">Article</h2>
-                </div>
+                    <h2 className="heading-secondary--main">Article</h2>
+                </Link>
 
                 <nav>
                     <ul className="Navbar-list">

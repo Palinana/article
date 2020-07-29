@@ -2,8 +2,8 @@
     width: 90%;
     max-width: 1240px;
     margin: 0 auto;
-    background: #f8f8f8;
-    padding: 2em 0;
+    padding: 1em 0;
+    margin-bottom: 2em;
 }
 
 .Navbar-container {
@@ -69,13 +69,13 @@
 }
   
 .Navbar-list__link {
-    color: black;
+    color: #7e7e7e;
     padding: .25em 0;
 }
   
 .Navbar-list__link:hover,
 .Navbar-list__link:focus {
-    color: brown;
+    color: #f79469;
 }
 
 @media (max-width: 674px) {

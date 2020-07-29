@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './LandingPage.css';
 
 const LandingPage = () => {
@@ -15,7 +16,9 @@ const LandingPage = () => {
                             Read unlimited stories from a wide range of authors
                         </p>
 
-                        <button class="btn btn-primary LandingPage-hero__btn">Get Started</button>
+                        <button class="btn btn-primary LandingPage-hero__btn">
+                            <Link to="/signup">Get Started</Link>
+                        </button>
                     </div>
                 </div>
             </section>
@@ -61,7 +64,10 @@ const LandingPage = () => {
                         <div className="LandingPage-try-free__info">
                             <h2 className="heading-secondary--main">120 million curious readers and growing</h2>
                             <p className="heading-secondary--sub">Read unlimited stories with an optional subscription of $5/month. If it's not for you, cancel anytime.</p>
-                            <button class="btn btn-primary LandingPage-hero__btn">Get Started for Free</button>
+                            
+                            <button class="btn btn-primary LandingPage-hero__btn">
+                                <Link to="/signup">Get Started for Free</Link>
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -71,10 +77,10 @@ const LandingPage = () => {
                 <div className="container">
                     <div className="LandingPage-footer-container">
                         <div className="LandingPage-footer">
-                            <div className="LandingPage-footer-title">
+                            <Link to="/" className="LandingPage-footer-title">
                                 <img alt="logo" className="LandingPage-footer__logo" src={require('../../Assets/font.svg')} />
                                 <h2 className="heading-secondary--main">Article</h2>
-                            </div>
+                            </Link>
 
                             <div className="LandingPage-footer-subtitle">
                                 <p className="navigation-link--info">

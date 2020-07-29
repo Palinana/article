@@ -22,10 +22,16 @@
 }
 
 .LandingPage-hero__btn {
-    margin-top: 2em ;
+    margin-top: 2em;
 }
 
+.LandingPage-hero__btn a{
+    color: white;
+}
+
+
 /* FEATURES */
+
 
 .features,
 .LandingPage-container--features {
@@ -81,7 +87,6 @@
     display: flex;
 }
 
-
 @media (max-width: 975px) {
     .LandingPage-try-free  {
         flex-direction: column;
@@ -99,7 +104,6 @@
     }
 }
 
-
 .LandingPage-try-free__info {
     align-self: center;
     text-align: center;
@@ -107,6 +111,7 @@
 
 
 /* FOOTER */
+
 
 .LandingPage-footer-container {
     display: flex;
@@ -162,10 +167,10 @@
 
     .navigation-link--main:before {
         margin-right: 10px
-      }
+    }
     .navigation-link--main:after {
         margin-left: 10px
-      }
+    }
 }
 
 .LandingPage-footer__logo {
@@ -213,4 +218,3 @@
         text-align: center;
     }
 }
-
